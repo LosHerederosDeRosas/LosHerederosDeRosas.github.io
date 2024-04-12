@@ -16,8 +16,18 @@ func index(indexHTML http.ResponseWriter,req *http.Request){
 	}
 }
 
+func index(indexHTML http.ResponseWriter,req *http.Request){
+	template,err := template.ParseFiles("menu.html")
+	if err == nil{
+		template.Execute(indexHTML,nil)
+	}else{
+		fmt.Println("Error en la carga...")
+	}
+}
+
 func main(){
 	http.HandleFunc("/index",index)
+	http.HandleFunc("/menu",menu)
 	http.ListenAndServe(":8000",nil)
 }
 
