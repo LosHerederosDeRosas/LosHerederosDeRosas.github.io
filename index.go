@@ -16,7 +16,7 @@ func index(indexHTML http.ResponseWriter,req *http.Request){
 	}
 }
 
-func index(indexHTML http.ResponseWriter,req *http.Request){
+func menu(indexHTML http.ResponseWriter,req *http.Request){
 	template,err := template.ParseFiles("menu.html")
 	if err == nil{
 		template.Execute(indexHTML,nil)
