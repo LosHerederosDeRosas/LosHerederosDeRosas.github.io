@@ -25,3 +25,21 @@ h1{
 .BtnSup:hover{
 	background-color: darksalmon;
 }
+.art{
+	clear: both;
+	text-align: center;
+	padding: 2%;
+	width: 60%;
+	margin: 2% auto;
+	margin-right: 10%;
+	border-radius: 8px 8px 8px 8px;
+	border: 2px solid black;
+	background-color: salmon;
+}
+.titulo{
+	font: 2.5em italic;
+}
+.parrafo{
+	font: 1em italic;
+	margin: center;
+}
