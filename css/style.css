@@ -1,0 +1,27 @@
+
+header{
+	background-color: salmon;
+	padding: 1em;
+	margin: -1em;
+}
+h1{
+	text-align: center;
+}
+.BtnSup{
+	text-align: center;
+	padding: 0.5em;
+	flex: 1;
+	margin: 0 8%;
+	max-width: 200px;
+	background-color: salmon;
+}
+.MenuSup{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: salmon;
+	margin: -1em;
+}
+.BtnSup:hover{
+	background-color: darksalmon;
+}
