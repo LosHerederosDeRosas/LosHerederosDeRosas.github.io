@@ -1,4 +1,8 @@
 
+.body{
+	background-image: url("fondo.jpg");
+}
+
 header{
 	background-color: salmon;
 	padding: 1em;
@@ -32,7 +36,7 @@ h1{
 	margin: 8% auto;
 	margin-right: 10%;
 	border-radius: 8px 8px 8px 8px;
-	border: 2px solid black;
+	border: 5px solid red;
 	background-color: salmon;
 }
 .titulo{
@@ -50,7 +54,7 @@ h1{
 	margin-bottom: 2%;
 }
 .menu{
-	border: 2px solid black;
+	border: 5px solid red;
 	float: left;
 	background-color: salmon;
 	margin-left: 1%;

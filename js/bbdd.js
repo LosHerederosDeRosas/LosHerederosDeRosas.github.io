@@ -19,7 +19,7 @@ const articulo =`
 		"id":1,
 		"autor":"Marco Patrico Debiasi",
 		"fecha":"16/04/2024",
-		"titulo":"Revolusion Francesa",
+		"titulo":"Revolución Francesa",
 		"texto":[
 			"<p class='parrafo'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et semper ligula. Nullam lacinia libero quis felis molestie, nec faucibus libero consectetur. Quisque gravida urna vel nunc rutrum, vitae interdum turpis mollis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi accumsan lorem vitae bibendum dictum. Phasellus sollicitudin turpis et nisi sollicitudin, a dapibus dolor cursus. Ut et libero sed felis tincidunt efficitur. Phasellus commodo velit quis justo posuere, sed lacinia felis volutpat. Vivamus quis sodales metus. Sed luctus euismod tincidunt.<br><br></p>",
 			"<div class='subtitle'>Hola Mundo!!!</div>",
@@ -45,7 +45,7 @@ const articulo =`
 		"id":3,
 		"autor":"Marco Patrico Debiasi",
 		"fecha":"16/04/2024",
-		"titulo":"Revolucion rusa",
+		"titulo":"Revolución rusa",
 		"texto":[
 			"<p class='parrafo'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et semper ligula. Nullam lacinia libero quis felis molestie, nec faucibus libero consectetur. Quisque gravida urna vel nunc rutrum, vitae interdum turpis mollis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi accumsan lorem vitae bibendum dictum. Phasellus sollicitudin turpis et nisi sollicitudin, a dapibus dolor cursus. Ut et libero sed felis tincidunt efficitur. Phasellus commodo velit quis justo posuere, sed lacinia felis volutpat. Vivamus quis sodales metus. Sed luctus euismod tincidunt.<br><br></p>",
 			"<div class='subtitle'>Hola Mundo!!!</div>",
