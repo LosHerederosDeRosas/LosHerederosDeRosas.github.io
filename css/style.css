@@ -26,7 +26,6 @@ h1{
 	background-color: darksalmon;
 }
 .art{
-	clear: both;
 	text-align: center;
 	padding: 2%;
 	width: 60%;
@@ -41,5 +40,28 @@ h1{
 }
 .parrafo{
 	font: 1em italic;
-	margin: center;
+	text-align: justify;
+	text-indent: 1.6em;
+}
+.subtitle{
+	font: 1.2em italic;
+	text-align: left;
+	margin-left: 5%;
+	margin-bottom: 2%;
+}
+.menu{
+	border: 2px solid black;
+	float: left;
+	background-color: salmon;
+	margin-left: 1%;
+	margin-top: 5%;
+	width: 20%;
+}
+
+.tema:hover{
+	background-color: darksalmon;
+}
+.tema{
+	font: 1em italic;
+	padding: 2.5%;
 }
