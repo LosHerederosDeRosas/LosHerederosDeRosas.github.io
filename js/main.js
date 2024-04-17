@@ -25,7 +25,11 @@ let btn_inicio = document.getElementById("inicio");
 btn_inicio.addEventListener("click",inicio);
 function inicio()
 {
-	text.innerHTML = null;
+	text.innerHTML = `<p class="parrafo">
+					Este es un blog de difusi&oacute;n de historia 
+					desde una perspectiva nacional cat&oacute;lica.</p>
+					<p class="parrafo">Disfrute de la recoplaci&oacute;n 
+					de art&iacute;culos.</p>`;
 	tittle.innerHTML = "Blog de Historia";
 }
 
@@ -51,8 +55,8 @@ let btn_con = document.getElementById("contacto");
 btn_con.addEventListener("click",con);
 function con()
 {
-	tittle.innerHTML = "Contatos";
-	text.innerHTML = "LosHerederosDeRosas@gmail.com";
+	tittle.innerHTML = "Contactos";
+	text.innerHTML = "ins.sanbernardo@gmail.com";
 }
 
 

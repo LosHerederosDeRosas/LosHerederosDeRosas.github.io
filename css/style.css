@@ -1,10 +1,12 @@
 
 .body{
-	background-image: url("fondo.jpg");
+	background-image: url("cruz_borgona.png");
+	background-size: 100% auto;
+	/*background-repeat: no-repeat;*/
 }
 
 header{
-	background-color: salmon;
+	background-color: #a31717;
 	padding: 1em;
 	margin: -1em;
 }
@@ -17,17 +19,17 @@ h1{
 	flex: 1;
 	margin: 0 8%;
 	max-width: 200px;
-	background-color: salmon;
+	background-color: #a31717;
 }
 .MenuSup{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: salmon;
+	background-color: #a31717;
 	margin: -1em;
 }
 .BtnSup:hover{
-	background-color: darksalmon;
+	background-color: #e34d4d;
 }
 .art{
 	text-align: center;
@@ -35,9 +37,9 @@ h1{
 	width: 60%;
 	margin: 8% auto;
 	margin-right: 10%;
-	border-radius: 8px 8px 8px 8px;
-	border: 5px solid red;
-	background-color: salmon;
+	border-radius: 0px;
+	border: 5px solid #4b0303;
+	background-color: #a31717;
 }
 .titulo{
 	font: 2.5em italic;
@@ -54,18 +56,36 @@ h1{
 	margin-bottom: 2%;
 }
 .menu{
-	border: 5px solid red;
+	border: 5px solid #4b0303;
 	float: left;
-	background-color: salmon;
+	background-color: #a31717;
 	margin-left: 1%;
 	margin-top: 5%;
 	width: 20%;
 }
 
 .tema:hover{
-	background-color: darksalmon;
+	background-color: #e34d4d;
 }
 .tema{
 	font: 1em italic;
 	padding: 2.5%;
+}
+
+footer{
+	background-color: #a31717;
+	color: black;
+	text-align: center;
+	padding: 1em;
+	margin: -1em;
+	position: revert;
+	width: 100%;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	z-index: 999;
+	bottom: 0;
+}
+.datos-pie{
+	text-align: center;
 }
