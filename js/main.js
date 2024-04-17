@@ -17,6 +17,8 @@ let info = Object.keys(data);
 // Acceso al contenido de cada articulo
 let articles = Object.values(data);
 
+// pie de pagina
+let pie = document.getElementById("pie");
 
 // Dinamismo de la interfaz
 
@@ -25,6 +27,7 @@ let btn_inicio = document.getElementById("inicio");
 btn_inicio.addEventListener("click",inicio);
 function inicio()
 {
+	pie.style.position = "absolute";
 	text.innerHTML = `<p class="parrafo">
 					Este es un blog de difusi&oacute;n de historia 
 					desde una perspectiva nacional cat&oacute;lica.</p>
@@ -55,6 +58,7 @@ let btn_con = document.getElementById("contacto");
 btn_con.addEventListener("click",con);
 function con()
 {
+	pie.style.position = "absolute";
 	tittle.innerHTML = "Contactos";
 	text.innerHTML = "ins.sanbernardo@gmail.com";
 }
@@ -94,6 +98,7 @@ for(let i=0; i<info.length; i++){
 //mecanicas del temario
 for(let i=0; i<info.length; i++){
 	temas[i].addEventListener("click",function(){
+		pie.style.position = "relative";
 		getArticles(i);
 		art();
 	});
@@ -117,5 +122,6 @@ function getArticles(i)
 	texto += articles[i].autor + "<br>" + articles[i].fecha;
 	titulo = articles[i].titulo;
 }
+
 
 
