@@ -9,6 +9,9 @@ header{
 	background-color: #a31717;
 	padding: 1em;
 	margin: -1em;
+	position: fixed;
+	width: 100%;
+	border-bottom: 5px solid #4b0303;
 }
 h1{
 	text-align: center;
@@ -37,6 +40,7 @@ h1{
 	width: 60%;
 	margin: 8% auto;
 	margin-right: 10%;
+	margin-top: 15%;
 	border-radius: 0px;
 	border: 5px solid #4b0303;
 	background-color: #a31717;
@@ -60,8 +64,9 @@ h1{
 	float: left;
 	background-color: #a31717;
 	margin-left: 1%;
-	margin-top: 5%;
+	margin-top: -5%;
 	width: 20%;
+	position: fixed;
 }
 
 .tema:hover{
@@ -83,6 +88,7 @@ footer{
 	z-index: 999;
 	bottom: 0;
 	left: 0;
+	border-top: 5px solid #4b0303;
 }
 .datos-pie{
 	text-align: center;

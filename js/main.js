@@ -27,6 +27,7 @@ let btn_inicio = document.getElementById("inicio");
 btn_inicio.addEventListener("click",inicio);
 function inicio()
 {
+	scroll();
 	pie.style.position = "absolute";
 	text.innerHTML = `<p class="parrafo">
 					Este es un blog de difusi&oacute;n de historia 
@@ -58,6 +59,7 @@ let btn_con = document.getElementById("contacto");
 btn_con.addEventListener("click",con);
 function con()
 {
+	scroll();
 	pie.style.position = "absolute";
 	tittle.innerHTML = "Contactos";
 	text.innerHTML = "ins.sanbernardo@gmail.com";
@@ -98,6 +100,7 @@ for(let i=0; i<info.length; i++){
 //mecanicas del temario
 for(let i=0; i<info.length; i++){
 	temas[i].addEventListener("click",function(){
+		scroll();
 		pie.style.position = "relative";
 		getArticles(i);
 		art();
@@ -123,5 +126,11 @@ function getArticles(i)
 	titulo = articles[i].titulo;
 }
 
-
+// Scroll al inicio
+function scroll(){
+	window.scrollTo({
+		top: 0,
+		behavior: 'smooth'
+	});
+}
 
